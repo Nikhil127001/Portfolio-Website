@@ -1,3 +1,16 @@
+#scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 100px;
+}
+
+#scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #f4f9f8;
+  background:white;
+ 
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +24,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Nikhilx{
+  font-family: 'Satisfy', cursive;
+  margin-top: 70px;
+  font-weight: bolder;
+  font-size: 25px;
+  background: linear-gradient(
+    to right, #f3bb21, #ff6b08,
+     #cf2323, #eedd44);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+ 
+}
+.gradient{
+  background: linear-gradient(
+    to right, #f3bb21, #ff6b08,
+     #cf2323, #eedd44);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+
+}
+.fonts{
+  font-size: 80px;
+}
+.Hello {
+
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Satisfy', cursive;
+  margin-right: 20px;
+}
+
+
+
+.Cont{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.abc{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.textbox1{
+  margin-right: 7px;
+}
+.textbox2{
+  /* margin-left: 3.5px; */
+
+}
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
+  margin-top: var(--bs-gutter-y);
+}
+
+.contact{
+  margin-left: 5px;
+}
+
+
+#run{
+  background: linear-gradient(
+    to right, #f3bb21, #ff6b08,
+     #cf2323, #eedd44);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+.ProgressBar{
+  background-image: linear-gradient(
+    to right, #f3bb21, #ff6b08,
+     #cf2323, #eedd44);
+     
+}
+
+.ButtonLink{
+  text-decoration: none;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  background-color: rgb(28, 28, 28);
+  outline: 1px solid rgb(248, 245, 245);
+  }
