@@ -14,14 +14,14 @@ const HomePage = (props) => {
             <div className="  mt-4 col  ">
                 <p className={`fonts text-${Color === "light" ? "dark" : "light"}`} style={{ fontFamily: "'Fugaz One', cursive", marginLeft: "40px" }}><p><h1>Hii! I'm</h1></p>
 
-                    <div className="gradient">Nikhil Prajapati</div><h3>I'm a fresher in Full Stack Development</h3>
-                    <h4>Looking for an Internship as well as a Job opportunity, where i can implement and enhance my Development skills </h4></p>
+                    <div className="gradient">Nikhil Prajapati</div><h3>I'm a Software Engineer</h3>
+                    <h4>Extremely passionate for software development and problem Solving. Looking for topNotch opportunities, where I can implement my skills and take them to next level </h4></p>
                 <p className=""></p>
             </div>
 
 
             <div className="md-6 col text-center ">
-                <Image  src="/images/profile2.png" alt="no image to preview" style={{
+                <Image  src={`${Color === "dark"? "/images/profile2.png" : "/images/profile.png" }`} alt="no image to preview" style={{
                     height
                         : "550px", width: "400px"
                 }} />

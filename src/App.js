@@ -11,16 +11,16 @@ import ProjectPageItemsComponentApp from "./Components/ProjectPageItemsComponent
 
 function App() {
 
-  const [Color, setColor] = useState("light")
+  const [Color, setColor] = useState("dark")
 
   const change = () => {
-    if (Color === "light") {
-      setColor("dark");
-      document.body.style.backgroundColor = "black"
-
-    } else {
+    if (Color === "dark") {
       setColor("light");
       document.body.style.backgroundColor = "white"
+
+    } else {
+      setColor("dark");
+      document.body.style.backgroundColor = "black"
 
     }
   }
