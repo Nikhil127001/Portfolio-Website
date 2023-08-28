@@ -51,7 +51,7 @@ const ProjectPageItemsComponentWeb = (props) => {
 
       <div className='col ms-5' style={{color: `${Color==="dark"?"white":"black"}`}}>
         <h1>NoteMaker</h1>
-        <p class="font-monospace"><b>Skills :</b> MERN, HTML, CSS, JS, Context API, Bootstrap, etc.</p>
+        <p class="font-monospace"><b>Skills :</b> MERN, HTML, CSS, JS, React JS, Redux Toolkit, Axios, Bootstrap, etc.</p>
         <p>
         <b>Frontend :</b> <u><b>NoteMaker</b></u> is a website on which you can save your notes for future references. I have created its Home,Login & Signup pages using bootstrap </p>
         <p>  <b>Backend :</b> Node JS , mongoose and Express were used to create backend
