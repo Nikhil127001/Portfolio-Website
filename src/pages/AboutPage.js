@@ -20,7 +20,7 @@ const AboutPage = (props) => {
       <p>
         During college, I have learned a lot of technologies for software/application development, some of them are -
         During 2st year - HTML, CSS, JavaScript, ReactNative, Firebase. 
-        During 3rd year - MongoDB, ReactJS, Node JS, Express JS, java database connection(JDBC), java Server Pages (JSP), java Serverlets, Java Springboot, Hibernate.
+        During 3rd year - MongoDB, ReactJS, Node JS, Express JS, jwt, Redux toolkit, Context Api, Socket io and Advance JavaScript etc.
         I have also completed some projects using all these skills 
         1.- Ecommerse website 
         2.- food delivery app 
